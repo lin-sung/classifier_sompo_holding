@@ -47,6 +47,7 @@ or
 python train_sagemaker.py # train on sagemaker
 ```
 At the first time training, please set `preprocessing=True` to process the data. Afterwards, you can set it to `False` to save some time.
+
 ### Arguments
 ```diff
 - test: whether to use testing mode, or using train mode (default=False)
@@ -85,5 +86,3 @@ Similar as 1., but the weights of the two classes (`date` and `patient_status`) 
 Similar as 1., but the attention weights of textlines are directly learned by a linear function.
 5. `MultiAttention_GCN_backbone` <br/>
 Combine 1. and 4.
-
-
