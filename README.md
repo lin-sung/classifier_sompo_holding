@@ -67,7 +67,7 @@ At the first time training, please set `preprocessing=True` to process the data.
 - extend_dataset: the directory to extend the data (usually is the ocr output)
 ```
 
-## Classes
+### Classes
 ```
 "others": 0,
 "not be admitted": 1,
