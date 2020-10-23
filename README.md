@@ -42,9 +42,9 @@ It will generate `train.lst` and `val.lst`, which indicate the filenames of trai
 
 ### Training
 ```
-bash train.sh
+bash train.sh # train locally
 or 
-python train_sagemaker.py
+python train_sagemaker.py # train on sagemaker
 ```
 At the first time training, please set `preprocessing=True` to process the data. Afterwards, you can set it to `False` to save some time.
 ### Arguments
